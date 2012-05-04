@@ -1,4 +1,7 @@
+" Load pathogen as git submodule
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+
 filetype on
 filetype plugin on
 filetype indent on
