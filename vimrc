@@ -36,8 +36,3 @@ set list listchars=tab:··
 "noremap <down> gj
 "nomemap <up> gk
 
-"" Atalhos para plugins
-map <F5> :NERDTree<CR>
-map <F6> :ColorSel<CR>
-map <F7> :set spell<CR>
-
