@@ -32,6 +32,9 @@ syntax match Tab /\t/
 hi Tab ctermbg=blue
 set list listchars=tab:··
 
+" Para funcionar alt-I no vim latexsuite
+":set <m-i>=é
+
 "" Mover entre linha quebradas com setas
 "noremap <down> gj
 "nomemap <up> gk
