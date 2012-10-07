@@ -7,6 +7,7 @@ filetype plugin on
 filetype indent on
 
 let g:tex_flavor='latex'
+let g:NERDTreeWinPos = "right"
 
 set grepprg=grep\ -nH\ $*
 set ts=2 " Tab com 2 espaços
