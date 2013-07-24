@@ -9,9 +9,9 @@
   mylog  = "log --pretty=medium --abbrev-commit --color --decorate --name-status --date=iso"
   mylog2 = "log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
 [apply]
-  whitespace = "trailing-space,space-before-tab"
+#  whitespace = "trailing-space,space-before-tab"
 [core]
-  whitespace = "trailing-space,space-before-tab"
+#  whitespace = "trailing-space,space-before-tab"
   autocrlf = input
   safecrlf = true
 [color]
@@ -25,3 +25,5 @@
   abbrev-commit = true
 [diff]
   tool = vimdiff
+[branch]
+  autosetuprebase = always

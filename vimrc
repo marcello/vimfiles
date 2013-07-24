@@ -25,7 +25,7 @@ set ignorecase " Ignora o case sensitive nas buscas
 set autoindent
 "set smartindent
 set nocompatible " Desabilita modo de compatibilidade
-set hls " Habilita destaque das buscas
+set nohls " Habilita destaque das buscas
 set spelllang=pt " Escolhe o dicionário
 
 "" Visualizar tabs
