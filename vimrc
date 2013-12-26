@@ -9,6 +9,7 @@ filetype indent on
 let g:tex_flavor='latex'
 let g:NERDTreeWinPos = "right"
 
+set clipboard=unnamedplus " Copy mouse clipboard
 set grepprg=grep\ -nH\ $*
 set ts=2 " Tab com 2 espaços
 set tabstop=2 " Quantidade de espaços nas tabs
