@@ -11,6 +11,8 @@
 [core]
   autocrlf = input
   safecrlf = true
+[pull]
+  rebase = true
 [color]
   branch = auto
   diff = auto
