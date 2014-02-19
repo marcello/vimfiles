@@ -1,17 +1,14 @@
 [user]
-  name = "Marcello Henrique"
-  email = marcello@cercomp.ufg.br
+  name = "Marcello Moura"
+  email = marcello@ufg.br
 [alias]
   st = status
   co = checkout
   ci = commit
-  br = branch
+  br = branch -av
   mylog  = "log --pretty=medium --abbrev-commit --color --decorate --name-status --date=iso"
   mylog2 = "log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
-[apply]
-  whitespace = "trailing-space,space-before-tab"
 [core]
-  whitespace = "trailing-space,space-before-tab"
   autocrlf = input
   safecrlf = true
 [color]
@@ -28,4 +25,4 @@
 [branch]
   autosetuprebase = always
 [push]
-	default = simple
+  default = simple
