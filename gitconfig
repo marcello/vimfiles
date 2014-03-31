@@ -9,7 +9,7 @@
   mylog  = "log --pretty=medium --abbrev-commit --color --decorate --name-status --date=iso"
   mylog2 = "log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
 [core]
-  autocrlf = input
+	autocrlf = false
   safecrlf = true
 [pull]
   rebase = true
